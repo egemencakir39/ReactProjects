@@ -1,0 +1,64 @@
+.sidebar {
+    background-color: rgb(44, 44, 44);
+    width: 15vw;
+    height: 100vh;
+}
+
+.title h3 {
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    background-color: rgb(44, 44, 44);
+    padding: 4rem 0rem;
+    text-align: center;
+}
+
+.page-buttons {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+}
+
+.page-buttons a {
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 10px 40px;
+    cursor: pointer;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.page-buttons a:hover {
+    background-color: rgb(172, 172, 172);
+    color: rgb(44, 44, 44);
+    transition: all 0.3s ease-in-out;
+}
+
+.page-buttons a:hover .sidebar-icon {
+    fill: rgb(44, 44, 44);
+    transition: all 0.3s ease-in-out;
+}
+
+.page-buttons a .sidebar-icon {
+    background-color: transparent;
+    fill: rgb(255, 255, 255);
+    font-size: 1.4rem;
+}
+
+.MuiTouchRipple-root {
+    display: none !important;
+
+}
+
+.menu-btn {
+    background-color: rgb(71, 70, 70);
+    padding: 35px;
+    height: 100vh;
+}

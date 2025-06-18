@@ -1,0 +1,9 @@
+.todo-text {
+    font-size: 18px;
+}
+
+.todo-icons {
+    font-size: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+}

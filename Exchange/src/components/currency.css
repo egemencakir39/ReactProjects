@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgba(34, 61, 13, .9);
+
+}
+
+h1 {
+    text-align: center;
+    color: #9fe870;
+    font-size: 56px;
+    margin-top: 8rem;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.currency {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 4rem 0rem 4rem;
+}
+
+.base-currency {
+
+    border-radius: 1rem;
+    background-color: #9ee870c4;
+}
+
+input {
+    box-shadow: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 15px;
+    background-color: rgb(169, 245, 162);
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+
+
+select {
+    padding: 1rem;
+    border-radius: .8rem;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 1rem 2rem;
+    background-color: rgb(169, 245, 162);
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: .8rem 1.8rem;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(169, 245, 162);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #9fe870;
+    transition-duration: .5s;
+}
+
+.loading {
+    text-align: center;
+}

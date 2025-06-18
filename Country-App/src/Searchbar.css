@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 55, 55);
+}
+
+.Input {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+input {
+    width: 15rem;
+    height: 3rem;
+    border-radius: .5rem;
+    border: solid 3px rgb(87, 85, 85);
+    padding: 0.2rem;
+    font-size: 1rem;
+    color: rgb(172, 169, 169);
+}
+
+input:hover {
+    transition-duration: .5s;
+    border: solid 3px rgb(0, 0, 0);
+}
+
+button {
+    margin-left: 3rem;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: solid 3px rgb(87, 85, 85);
+    color: rgb(172, 169, 169);
+}
+
+button:hover {
+    transition-duration: .5s;
+    border: solid 3px rgb(0, 0, 0);
+    background-color: rgb(87, 85, 85);
+    color: black;
+}

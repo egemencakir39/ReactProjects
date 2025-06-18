@@ -1,0 +1,7 @@
+.app {
+  display: flex;
+}
+
+* {
+  box-sizing: border-box !important;
+}

@@ -1,0 +1,17 @@
+.chart-wrapper {
+    margin: 100px 200px;
+}
+
+.chart-wrapper svg {
+    background-color: rgb(70, 70, 71);
+}
+
+.chart-wrapper ul {
+    color: rgb(128, 136, 124);
+}
+
+.chart-wrapper h1 {
+    color: white;
+    padding-bottom: 25px;
+    text-align: center;
+}

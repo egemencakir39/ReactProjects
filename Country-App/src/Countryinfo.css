@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.flag {
+    margin: 6rem 1rem;
+
+}
+
+img {
+    border-radius: .5rem;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(100, 99, 99);
+}
+
+.textinfo {
+    margin: 6rem 6rem;
+}
+
+h2 {
+
+    margin: 1.5rem 0rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+}
+
+p {
+
+    color: white;
+    margin: .8rem 0rem;
+    font-size: 1.1rem;
+}
+
+.BorderCountry {
+    display: flex;
+}
+
+.BorderCountry .title {
+    margin: 5rem .1rem;
+    background-color: rgb(80, 81, 82);
+    padding: 1rem;
+    border-radius: .4rem;
+    font-size: 1rem;
+}
+
+.BorderCountry h6 {
+    font-size: 1.2rem;
+    color: white;
+    padding: 1rem 0.1rem;
+    margin: 5rem 0rem;
+}
